@@ -366,10 +366,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QMangoFix_Example/Pods-QMangoFix_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/QMangoFix/QMangoFix.framework",
+				"${BUILT_PRODUCTS_DIR}/symdl/symdl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMangoFix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/symdl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

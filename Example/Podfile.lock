@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QMangoFix (0.1.0)
+  - symdl (0.6.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QMangoFix (from `../`)
+  - symdl
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - symdl
+
+EXTERNAL SOURCES:
+  QMangoFix:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QMangoFix: c60b7ed5763f1109d2e183fcd97042f0aff449e2
+  symdl: 1906f396fff3f7530074ecfc226e17006b12d0a0
+
+PODFILE CHECKSUM: dabdadfb9db2d72b66e561a473fb69adf9080087
+
+COCOAPODS: 1.8.4

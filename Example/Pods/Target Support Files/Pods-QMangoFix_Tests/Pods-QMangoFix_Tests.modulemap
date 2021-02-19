@@ -1,0 +1,6 @@
+framework module Pods_QMangoFix_Tests {
+  umbrella header "Pods-QMangoFix_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

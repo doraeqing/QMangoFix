@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'QMangoFix_Example' do
-  pod 'QMangoFix', :path => '../'
+  pod 'QMangoFix', :path => '../'  
+
 
   target 'QMangoFix_Tests' do
     inherit! :search_paths

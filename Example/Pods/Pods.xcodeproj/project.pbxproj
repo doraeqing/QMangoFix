@@ -1,0 +1,1595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F877DB4DEFA18C399308384AB65E3A8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0080B18165B3CB538E5673ED39D2C274 /* YTXMFContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3124DAE65A50D212CD23A3AD8AD57110 /* YTXMFContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03DE9E898FE0DE342ACBED81BDA8C68C /* MFDeclarationModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = F19D4A9A5D9B17761759B698E4E8590F /* MFDeclarationModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D7CFA334083BC6404191A2BC24C410 /* YTXMFFunctionDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B70AB439B3D7130916285B4419DEEC /* YTXMFFunctionDefinition.m */; };
+		079ED13860C9F71F26AA927D9AE6EF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		0D527725F57A65B130E79EB5767F007B /* YTXMFClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E262990A53B6EF802E41442019BC19C4 /* YTXMFClassDefinition.m */; };
+		0F9BB392E4001CFEA7C3B0F8BE4784F6 /* errror.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8609AEBAD7623B0D5AD4FA922C262F /* errror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11637CDDA0804767C6C0A59D589E0644 /* YTXMFValue.h in Headers */ = {isa = PBXBuildFile; fileRef = FA21811FFD50DA701F9A22E5E529C3B7 /* YTXMFValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167C5FC0ECC2684127D8ECC345CD45B /* UIApplication+StrictKeyWindow.m */; };
+		123A6949162482B472BB086B642D40C2 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CF72131975E9D41FAACF4C09CB1F62 /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D517E69E802FAEAD26327291DB820 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		184D51C8AFE2D2EF941432D1661BB37A /* YTXMFMethodMapTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D33258E8F34AF5964EEB50386710C6 /* YTXMFMethodMapTable.m */; };
+		18BA43171B787A15510135EEFB987188 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1651753AB8B0A0E5BF5C5C6CDCA2BE47 /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DED0410418A3BC1923DBED34A64AE42 /* Pods-QMangoFix_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FD09855407F3C255CA9F938F3C3ED4 /* Pods-QMangoFix_Tests-dummy.m */; };
+		201ED7D4C0CE140925C776D6C2BD9FB1 /* YTXMFStructDeclareTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9497AA1088597F188BA04D216ABFA1C7 /* YTXMFStructDeclareTable.m */; };
+		228621B3410D7C21F3171174DC6E6228 /* YTXMFStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AC688F7F9652D6000954A156351BC9 /* YTXMFStack.m */; };
+		2861886E920DB2E1EA3E286853914814 /* YTXMFValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B02FA1214DA64779202666CF43C7A46D /* YTXMFValue.m */; };
+		2D1FB17C552A35D3259FA0CE76C3F306 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5304784D31749C6DA60A0C709157E6 /* ffi_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D652CA1BF5038AFAC01034A9529CE24 /* eval.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164BFF77E26450430B89E36FFB174B5 /* eval.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = E48E6DD05B7FDB26C6E2F4CABD4AD4D2 /* UIImage+Compare.m */; };
+		2FBC010E82DA70EC7C663160AEC8D007 /* Pods-QMangoFix_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C85BEB1A9BAE1C839A8CC3478F6786A7 /* Pods-QMangoFix_Example-dummy.m */; };
+		33E9BB9ADB2C66F152C518D96EE8B5EA /* symdl.h in Headers */ = {isa = PBXBuildFile; fileRef = A087C432412B00FD94C86BD83EB12E96 /* symdl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38FAA71042B9FAF1D87E125B9A1531DF /* YTXMFPropertyMapTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EDE69B0487631EBB32590451D2CEB6 /* YTXMFPropertyMapTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3FEC24732FF5C4CEFAC3307680E0CC /* symdl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C3AB4D27E1C106F497BD050220501D /* symdl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8BFE31A62CD649D55AAC0DF3C08B55 /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F19DA26A4165047B06952265BDB25A /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE15A0C5A15CF3A0B06BB1194A9A0E0 /* YTXMFTypedefTable.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBB73C3AAEC9F80C50373B992C1DA83 /* YTXMFTypedefTable.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 1178B488B8EDE138D49F0ADEB02B7A5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		428B6B0A8363C796C896796D71D2F5C3 /* mf_ast.h in Headers */ = {isa = PBXBuildFile; fileRef = 918D0B51C2F2D60299AB47E86B5BDE7C /* mf_ast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45629546E855C9641CDE7CB62899EC9E /* YTXMFRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED35AA2C503410EEC255D0A3805D631 /* YTXMFRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492E943F8A1C8B9351B5A1504F3B0BB1 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = E935F0758221114F436FCDCEC65BDA8F /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DB4F1D162DDEBFD612AA1A53D256D2 /* YTXMFInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A90A9C17F2E7ED7B147F015C9EFC7A /* YTXMFInterpreter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BED45D244687569A1815E8AA4E59EAF /* YTXMFBlockBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 1752357959E8209A582C882FEF223BCB /* YTXMFBlockBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C393F0475061E8DA9FCCC10E9F235FF /* YTXMFStructDeclare.h in Headers */ = {isa = PBXBuildFile; fileRef = E6146F6D3140FF72532427D4A575C242 /* YTXMFStructDeclare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518DC94FF010BABC1D6D8AAABEE8BDF8 /* YTXMFDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = 855667F06E1A66C329388020624BEB99 /* YTXMFDeclaration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		522EAB9B041AC2AF42D14032CA71A65D /* YTXMFStructDeclare.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F85E3E3379A596BE1D5CE903EF17A1 /* YTXMFStructDeclare.m */; };
+		55FB93A874799D21BD5BE96D275FEDFE /* symdl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72DB868241459736A76B67372926CCE /* symdl-dummy.m */; };
+		56452FB7A6BC759607839F3E87684CAE /* YTXMFStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = E8318A25D2EAC2D31E00C1E4AF2B73A9 /* YTXMFStatement.m */; };
+		588B5F83870392FA27C5BB9C078DF163 /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC0CC4FF92696C425C7C2D1304AE552 /* ffitarget_arm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A0A897E4DCF5F080E19902944896DCA /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = C4258C1A15369F497F72DCD9AF3C40DB /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE21273EFA1950E2480AACE749F2F5E /* YTXMFPropertyMapTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7812AEF0E9CB4135E12AFEF6125DC861 /* YTXMFPropertyMapTable.m */; };
+		6032C4678C8F5207121FC9F75F7ED350 /* YTXMFTypeSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8FCBBAB6439C259264B2BCA395426 /* YTXMFTypeSpecifier.m */; };
+		623D8725FE022A8078D604D4EF3D34D9 /* create.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5195424E85CD72AC2D15BE486D3561 /* create.m */; };
+		6253F0EDDD4ABD4ABAAADF2F2E32DA57 /* YTXMFWeakPropertyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6C6A34EE60CDD7B44987B68EAD92B0 /* YTXMFWeakPropertyBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F65FE9839DE4E24247B57BA59AA109 /* YTXMangoFix.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDEC20C8B7E12E231CED100D7A5E938 /* YTXMangoFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6603EAAFD2919E8EA13BFE23E2B1093F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF54B03033BBA16B19DD382E1AE2BFA /* FBSnapshotTestCase-dummy.m */; };
+		6EBBFE8B8E2781F3082538C54C17FF06 /* YTXMFStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DADB2B34975065ACAAEB2005D84C0E8 /* YTXMFStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A0A02632F36BCBDFEA680CFB01AD8A /* YTXMFFunctionDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D0C9AFF3257BDCC468A13AF776EBA1 /* YTXMFFunctionDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79262D0E336458C633A653836A926772 /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDF289E270A2E7635A68BFED0F9AA54 /* ffi_arm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFAFEEC55E429A274BC8ABEC795575C /* YTXMFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89C0708E0B787D8AFDF19BDFBD71E5 /* YTXMFBlock.m */; };
+		7BC10466F118903A91444EDE64DEB41A /* YTXMFStatementResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5485A99D838273535DAA8084A8D482 /* YTXMFStatementResult.m */; };
+		7CF3659D21A05F7D604E0C0E4046E204 /* YTXMFRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 641D09359B97AA512BF5E92188F2101F /* YTXMFRSA.m */; };
+		7D8058E289E870BF16CB49FE35F13DA8 /* YTXMFTypeSpecifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A280514E0C064B132F87608A565C29 /* YTXMFTypeSpecifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F7F204ADA5B85307AE5EEB9D9668249 /* YTXMFVarDeclareChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE7BF27D9FA0A1B04CD70719AA2FB5 /* YTXMFVarDeclareChain.m */; };
+		84260B948995894B4E3455D1416A14ED /* YTXMFWeakPropertyBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B27A8C5BFDBB3A6868BF179CFA2DEDB /* YTXMFWeakPropertyBox.m */; };
+		84A3FDE0773D2695122C6DDF11759973 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AD961078351852C5FE7D2A0C74205A /* util.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C437DA3767297073F0C0487E39E497 /* FBSnapshotTestController.m */; };
+		8C9199361B78457754FACDC598798B4C /* YTXMFBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F4D7B77130E4481ADB1258BE33A5E0 /* YTXMFBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2902E5D18591F597C40D80076E411 /* FBSnapshotTestCase.m */; };
+		8D845C30D205EA32E53CAA77CE48171C /* built-in.m in Sources */ = {isa = PBXBuildFile; fileRef = 3350A6231FE0B237F4AD4577B3D28129 /* built-in.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90ADC7FD6A6BFC3F285D223E0D439345 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FA105CF26F2E8A94E05FCBE02400D5 /* libffi.a in Sources */ = {isa = PBXBuildFile; fileRef = A67207BEDBB136051FBF3D334257569F /* libffi.a */; };
+		94ED2CA704C5ABFE28AAFF398312818A /* YTXMFInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D969883E0E62BC2D95FD2DEC0496FF /* YTXMFInterpreter.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D4D782A9C79A0A4374E7C4AB2BE35 /* SwiftSupport.swift */; };
+		A278D26B4C3B600CCE56ADE8A5008FE5 /* runenv.h in Headers */ = {isa = PBXBuildFile; fileRef = 52372AB29677CD673A272285903C39A7 /* runenv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A34E26A5D35D0BE5FCBA5A44645BC452 /* YTXMFExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E233DE8B48021B53AC00F644B8BC9D /* YTXMFExpression.m */; };
+		A4569E6EB766578C0279C6D1497700BA /* YTXMFDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = C98E197EAAD7EC11E1E56B2FB7434B7B /* YTXMFDeclaration.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B8D56B6B77C0C6844FC314F0569470 /* UIImage+Snapshot.m */; };
+		A6E3450DCC6DF2EEA2CBA5557F6AC51D /* YTXMFStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8F7589CE372905C06FF05289D800 /* YTXMFStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B1623CBAEEE1623B6DC2651F6C65AF /* YTXMFScopeChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA49D499A680A3921F84AB5D92E38D3 /* YTXMFScopeChain.m */; };
+		AB5DF35080D7034477C6E9A632AEAFB3 /* QMangoFix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 161CF27CD5662299179C0127DC9BD971 /* QMangoFix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC61913C82B0CA15154AF57727DCFD52 /* mango.l in Sources */ = {isa = PBXBuildFile; fileRef = 3E603BE68A29BF2BC56B64C48A9271C5 /* mango.l */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B26E570B80074374DAE8A906E6D907AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B2F9FE4545682153F026EBFB990972CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B583AC5DBB3BDDC26CAEDC4FA1C3B5DB /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFA20E957ADE70866E5EB4243B9B254 /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE6D7AA870FBCE32DDE9BF563A4005 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B91EB79BDB4F6918D0448E1E175E94FE /* YTXMFValue+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D06D2A796F2AE22D3FC3702D0F305C1C /* YTXMFValue+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB31C81B1974300ABBF94A412F224365 /* YTXMFScopeChain.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FB78C6E15BAD231916C7702076C8C0 /* YTXMFScopeChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A3016B8B2095A8B5CB2078C98DFC853D /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6AEB144265817E04C094CE1143648B /* execute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1623CEB47110A58DDB1139481F520DC2 /* execute.m */; };
+		CAFBB259A02CA0632B246C7F97A3C209 /* errror.m in Sources */ = {isa = PBXBuildFile; fileRef = 79754481AD164067FEE1131916440FB7 /* errror.m */; };
+		CC9D383D5F55386E22278BEC8A1483C9 /* YTXMFStaticVarTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CC35C26EDA6BD67F806392F2BA15B63F /* YTXMFStaticVarTable.m */; };
+		CE25F8EAC6CBA811C75B8ED456F1725C /* Pods-QMangoFix_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDB289873B52D2391F5BA2BEE386DCB /* Pods-QMangoFix_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 5888509119A5117E27C12CF91A113A92 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D37517E782267C79BC5A6D795C8867DD /* mango.y in Sources */ = {isa = PBXBuildFile; fileRef = 6786B82CBE1E95A0E097C091BFEC3D81 /* mango.y */; };
+		D43AFF21FA8F711AD617F2EDF4FFD074 /* YTXMFStructDeclareTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA830EC537D3E242E57AD73B7B22E00 /* YTXMFStructDeclareTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7A045883DCF65A3A813071779EC41AA /* QMangoFix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F969BCBFA4716228B6A41C302507E634 /* QMangoFix-dummy.m */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E2CC57194E523B68166B36B751970D01 /* YTXMFBlockBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C81C556DA7E70272B4ECF9CE70CA77 /* YTXMFBlockBody.m */; };
+		E3E5F9637A1F34C5AE0688EF77785AB7 /* YTXMFStaticVarTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D477632B9F4DCF88DBB20D4A1CEE5AB /* YTXMFStaticVarTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50BCD1B9C1D43A13C5778C31664B3D8 /* symdl.c in Sources */ = {isa = PBXBuildFile; fileRef = B66427725BC190FF9E33DB9BD28218D9 /* symdl.c */; };
+		E890906FD8B70C2633070A7A36CE7876 /* YTXMFTypedefTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 564620D1E92F779A6338FFD8022A86FF /* YTXMFTypedefTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E26E6A564890AE34EBE1C946535E4 /* FBSnapshotTestCasePlatform.m */; };
+		E94D16C82DA5D35A0ABA76B0BC719BA5 /* YTXMFMethodMapTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D93B38460E948CB7106650DE762A925 /* YTXMFMethodMapTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E9181B5828476E320FF60DAE28BC6F /* Pods-QMangoFix_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE40919468AE5F1E73D6A2254FC26868 /* Pods-QMangoFix_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E9970271BE488AF38606289EAD9A50 /* YTXMFClassDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D18A03A135B1566BBB48CDA05D19EF5 /* YTXMFClassDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD9EFBEE304A40606295CA337310973 /* YTXMFStatementResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EA295E32850C27EF72E00B117999D80B /* YTXMFStatementResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC16A0D21B59890C626A2643A79F48F3 /* YTXMFVarDeclareChain.h in Headers */ = {isa = PBXBuildFile; fileRef = ED920D1999CB1CE5FBC0E2D8FF5D71AA /* YTXMFVarDeclareChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED637AE880297B9FAE937C5433D533C4 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F76C91BB8C1F49E645C3BE4F1617A /* Info.plist */; };
+		EE552702A233656C2843F3185DC5660D /* YTXMFContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B8975B8FF88EC213959B620C3ABCF24D /* YTXMFContext.m */; };
+		EFB522D05BACB32550F9B16EA2B36C6A /* YTXMFExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C4C0B5D875D9905FC2D675F2666A4D /* YTXMFExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 75CA209FD571908718658039681F0DE3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F3564293154E157134925A7C19A7CA0C /* execute.h in Headers */ = {isa = PBXBuildFile; fileRef = 447CEC55294CDBDA428A6FE9178F2C97 /* execute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61B25D29F463BAA35B78CB4BA0FD5D4 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C6FD8BB765EEA3F9BF6168855603E6 /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70EAFCDEEAD4C7512532D0CF69B2C5D /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DEEF652EFAEBEB4861DFDE90FB414E /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF2BAE2D440A9DB5A0B4206AC977A36 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F804CBD15AD9B53C9D00BCF72D82FC7D /* create.h in Headers */ = {isa = PBXBuildFile; fileRef = 819E330AAFB015EFD51A34B4FA4557AB /* create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		530D9FBF8A1F03621E8C1A7433B9223F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		BBC050F78CA9843B8328EABFC9B8756B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EBF2FAB4D5066D95CC1C7830A7E314;
+			remoteInfo = symdl;
+		};
+		C16D3ECCF25EDAC02FEC242056C28FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AF71E170E6E23E52C25DE0ACEB4B011;
+			remoteInfo = QMangoFix;
+		};
+		DBBDC4DA5951B82EA497D2380988E8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904554A9342C71CFCDAECF184C398DC0;
+			remoteInfo = "Pods-QMangoFix_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AC688F7F9652D6000954A156351BC9 /* YTXMFStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStack.m; sourceTree = "<group>"; };
+		09FCDBBF42064FCC4E94861A5EFD6A84 /* Pods-QMangoFix_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMangoFix_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A6C6A34EE60CDD7B44987B68EAD92B0 /* YTXMFWeakPropertyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFWeakPropertyBox.h; sourceTree = "<group>"; };
+		0BDB289873B52D2391F5BA2BEE386DCB /* Pods-QMangoFix_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMangoFix_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0CBAA9F24151EAAFD7D5BDEF6FB7C69E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		0FA830EC537D3E242E57AD73B7B22E00 /* YTXMFStructDeclareTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStructDeclareTable.h; sourceTree = "<group>"; };
+		1167C5FC0ECC2684127D8ECC345CD45B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		1178B488B8EDE138D49F0ADEB02B7A5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		11AFF660D10C52E6DA4940461B604604 /* QMangoFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMangoFix.framework; path = QMangoFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F19DA26A4165047B06952265BDB25A /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		159A8F1EE43AB462FD19F1D7C5513819 /* symdl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = symdl.xcconfig; sourceTree = "<group>"; };
+		161CF27CD5662299179C0127DC9BD971 /* QMangoFix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMangoFix-umbrella.h"; sourceTree = "<group>"; };
+		1623CEB47110A58DDB1139481F520DC2 /* execute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = execute.m; sourceTree = "<group>"; };
+		1651753AB8B0A0E5BF5C5C6CDCA2BE47 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		1752357959E8209A582C882FEF223BCB /* YTXMFBlockBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFBlockBody.h; sourceTree = "<group>"; };
+		1A82C2D0B4CBC65A158A6DDFE45F3454 /* QMangoFix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMangoFix-prefix.pch"; sourceTree = "<group>"; };
+		1F2C1D7526D540B0BC354CB68429EB3D /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		21D0C9AFF3257BDCC468A13AF776EBA1 /* YTXMFFunctionDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFFunctionDefinition.h; sourceTree = "<group>"; };
+		23DEEF652EFAEBEB4861DFDE90FB414E /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		26993A5835A618E451168F41CE2DE5DA /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		26A90A9C17F2E7ED7B147F015C9EFC7A /* YTXMFInterpreter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFInterpreter.h; sourceTree = "<group>"; };
+		2BC0CC4FF92696C425C7C2D1304AE552 /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		2D18A03A135B1566BBB48CDA05D19EF5 /* YTXMFClassDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFClassDefinition.h; sourceTree = "<group>"; };
+		2ED35AA2C503410EEC255D0A3805D631 /* YTXMFRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFRSA.h; sourceTree = "<group>"; };
+		2EF54B03033BBA16B19DD382E1AE2BFA /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3004E8EC83A4209ECD56D0FAEA2AC72D /* Pods_QMangoFix_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMangoFix_Example.framework; path = "Pods-QMangoFix_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3124DAE65A50D212CD23A3AD8AD57110 /* YTXMFContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFContext.h; sourceTree = "<group>"; };
+		32A280514E0C064B132F87608A565C29 /* YTXMFTypeSpecifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFTypeSpecifier.h; sourceTree = "<group>"; };
+		3350A6231FE0B237F4AD4577B3D28129 /* built-in.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "built-in.m"; sourceTree = "<group>"; };
+		34E56B241ECF9CD864C3734DD77F1FAF /* Pods-QMangoFix_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMangoFix_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		38EB2DF860063976E0289246A2EB6395 /* Pods-QMangoFix_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMangoFix_Tests.modulemap"; sourceTree = "<group>"; };
+		3AA49D499A680A3921F84AB5D92E38D3 /* YTXMFScopeChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFScopeChain.m; sourceTree = "<group>"; };
+		3D93B38460E948CB7106650DE762A925 /* YTXMFMethodMapTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFMethodMapTable.h; sourceTree = "<group>"; };
+		3DADB2B34975065ACAAEB2005D84C0E8 /* YTXMFStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStack.h; sourceTree = "<group>"; };
+		3E18DCBB6AE7A8B1A34542D578D1A0EE /* Pods-QMangoFix_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMangoFix_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E603BE68A29BF2BC56B64C48A9271C5 /* mango.l */ = {isa = PBXFileReference; includeInIndex = 1; path = mango.l; sourceTree = "<group>"; };
+		3E89C0708E0B787D8AFDF19BDFBD71E5 /* YTXMFBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFBlock.m; sourceTree = "<group>"; };
+		3F877DB4DEFA18C399308384AB65E3A8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		4015C507047CFAA80047E761CA40E120 /* Pods_QMangoFix_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMangoFix_Tests.framework; path = "Pods-QMangoFix_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4033231EB719065E07C62D0EF757197E /* symdl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = symdl.modulemap; sourceTree = "<group>"; };
+		407A01F882EE90242754CD8D57991CFA /* symdl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "symdl-prefix.pch"; sourceTree = "<group>"; };
+		447CEC55294CDBDA428A6FE9178F2C97 /* execute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = execute.h; sourceTree = "<group>"; };
+		4C8DB64039CDAB381E58DA1EA6CBF6AE /* QMangoFix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QMangoFix-Info.plist"; sourceTree = "<group>"; };
+		4DFE6D7AA870FBCE32DDE9BF563A4005 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		4FFA20E957ADE70866E5EB4243B9B254 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		52372AB29677CD673A272285903C39A7 /* runenv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = runenv.h; sourceTree = "<group>"; };
+		54C437DA3767297073F0C0487E39E497 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		564620D1E92F779A6338FFD8022A86FF /* YTXMFTypedefTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFTypedefTable.h; sourceTree = "<group>"; };
+		5888509119A5117E27C12CF91A113A92 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		58D33258E8F34AF5964EEB50386710C6 /* YTXMFMethodMapTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFMethodMapTable.m; sourceTree = "<group>"; };
+		58F85E3E3379A596BE1D5CE903EF17A1 /* YTXMFStructDeclare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStructDeclare.m; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		641D09359B97AA512BF5E92188F2101F /* YTXMFRSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFRSA.m; sourceTree = "<group>"; };
+		6786B82CBE1E95A0E097C091BFEC3D81 /* mango.y */ = {isa = PBXFileReference; includeInIndex = 1; path = mango.y; sourceTree = "<group>"; };
+		68EDE69B0487631EBB32590451D2CEB6 /* YTXMFPropertyMapTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFPropertyMapTable.h; sourceTree = "<group>"; };
+		6D477632B9F4DCF88DBB20D4A1CEE5AB /* YTXMFStaticVarTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStaticVarTable.h; sourceTree = "<group>"; };
+		6F8609AEBAD7623B0D5AD4FA922C262F /* errror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = errror.h; sourceTree = "<group>"; };
+		7164BFF77E26450430B89E36FFB174B5 /* eval.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = eval.m; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		72C81C556DA7E70272B4ECF9CE70CA77 /* YTXMFBlockBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFBlockBody.m; sourceTree = "<group>"; };
+		72FD09855407F3C255CA9F938F3C3ED4 /* Pods-QMangoFix_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMangoFix_Tests-dummy.m"; sourceTree = "<group>"; };
+		75CA209FD571908718658039681F0DE3 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		760592AC03C262AF96BD0F5A456671A2 /* QMangoFix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QMangoFix.modulemap; sourceTree = "<group>"; };
+		7812AEF0E9CB4135E12AFEF6125DC861 /* YTXMFPropertyMapTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFPropertyMapTable.m; sourceTree = "<group>"; };
+		79754481AD164067FEE1131916440FB7 /* errror.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = errror.m; sourceTree = "<group>"; };
+		7A45A701513F3358EFF281F665518F41 /* QMangoFix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMangoFix.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7ACF8F7589CE372905C06FF05289D800 /* YTXMFStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStatement.h; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C4E26E6A564890AE34EBE1C946535E4 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		7E5304784D31749C6DA60A0C709157E6 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		7E966A5EDCF334AABF37A7702A657AED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7FDEEAD4AB9CC5BD5FB2F7B800DF41A7 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		819E330AAFB015EFD51A34B4FA4557AB /* create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = create.h; sourceTree = "<group>"; };
+		82F97FDA18BE50BA4638D7201AEB4A0C /* Pods-QMangoFix_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMangoFix_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84F46BDDA13607F02C5FD49D4D364D83 /* symdl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "symdl-Info.plist"; sourceTree = "<group>"; };
+		855667F06E1A66C329388020624BEB99 /* YTXMFDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFDeclaration.h; sourceTree = "<group>"; };
+		8AFADF629A9F8DE26C6B7048F12A0FE7 /* Pods-QMangoFix_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMangoFix_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B27A8C5BFDBB3A6868BF179CFA2DEDB /* YTXMFWeakPropertyBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFWeakPropertyBox.m; sourceTree = "<group>"; };
+		8B2F76C91BB8C1F49E645C3BE4F1617A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = QMangoFix/Classes/Info.plist; sourceTree = "<group>"; };
+		8B48F569E2926D639B65767F8B63248F /* Pods-QMangoFix_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMangoFix_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C89816C1707E0DCF9FC90CB53175C54 /* Pods-QMangoFix_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMangoFix_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D8D4D782A9C79A0A4374E7C4AB2BE35 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		90ADC7FD6A6BFC3F285D223E0D439345 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		918D0B51C2F2D60299AB47E86B5BDE7C /* mf_ast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mf_ast.h; sourceTree = "<group>"; };
+		93737E9E07000096AE3CFC863205A909 /* Pods-QMangoFix_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMangoFix_Example.modulemap"; sourceTree = "<group>"; };
+		9497AA1088597F188BA04D216ABFA1C7 /* YTXMFStructDeclareTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStructDeclareTable.m; sourceTree = "<group>"; };
+		9A5485A99D838273535DAA8084A8D482 /* YTXMFStatementResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStatementResult.m; sourceTree = "<group>"; };
+		9AF660765A7AB8D2AABC4D5492B4F29D /* Pods-QMangoFix_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMangoFix_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CDF289E270A2E7635A68BFED0F9AA54 /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF2BAE2D440A9DB5A0B4206AC977A36 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A087C432412B00FD94C86BD83EB12E96 /* symdl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symdl.h; path = symdl/symdl/symdl.h; sourceTree = "<group>"; };
+		A1C3AB4D27E1C106F497BD050220501D /* symdl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "symdl-umbrella.h"; sourceTree = "<group>"; };
+		A3016B8B2095A8B5CB2078C98DFC853D /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		A58D517E69E802FAEAD26327291DB820 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		A67207BEDBB136051FBF3D334257569F /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		A6C6FD8BB765EEA3F9BF6168855603E6 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		ABCC2808F3C4DFBBC738262B01A84B90 /* Pods-QMangoFix_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMangoFix_Example-Info.plist"; sourceTree = "<group>"; };
+		ADBB73C3AAEC9F80C50373B992C1DA83 /* YTXMFTypedefTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFTypedefTable.m; sourceTree = "<group>"; };
+		B02FA1214DA64779202666CF43C7A46D /* YTXMFValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFValue.m; sourceTree = "<group>"; };
+		B3F2FBDC39CD258DA2CB37DAC51BC484 /* Pods-QMangoFix_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMangoFix_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B66427725BC190FF9E33DB9BD28218D9 /* symdl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = symdl.c; path = symdl/symdl/symdl.c; sourceTree = "<group>"; };
+		B72DB868241459736A76B67372926CCE /* symdl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "symdl-dummy.m"; sourceTree = "<group>"; };
+		B8975B8FF88EC213959B620C3ABCF24D /* YTXMFContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFContext.m; sourceTree = "<group>"; };
+		C2CF72131975E9D41FAACF4C09CB1F62 /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		C4258C1A15369F497F72DCD9AF3C40DB /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		C47E7299408AC5B10B17F0173A9BEDF7 /* QMangoFix.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMangoFix.xcconfig; sourceTree = "<group>"; };
+		C5D969883E0E62BC2D95FD2DEC0496FF /* YTXMFInterpreter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFInterpreter.m; sourceTree = "<group>"; };
+		C85BEB1A9BAE1C839A8CC3478F6786A7 /* Pods-QMangoFix_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMangoFix_Example-dummy.m"; sourceTree = "<group>"; };
+		C8E233DE8B48021B53AC00F644B8BC9D /* YTXMFExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFExpression.m; sourceTree = "<group>"; };
+		C98E197EAAD7EC11E1E56B2FB7434B7B /* YTXMFDeclaration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFDeclaration.m; sourceTree = "<group>"; };
+		C9B8D56B6B77C0C6844FC314F0569470 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		CC35C26EDA6BD67F806392F2BA15B63F /* YTXMFStaticVarTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStaticVarTable.m; sourceTree = "<group>"; };
+		CFDD0389E53311FF01EA48B6EF52D7C0 /* Pods-QMangoFix_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMangoFix_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D06D2A796F2AE22D3FC3702D0F305C1C /* YTXMFValue+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTXMFValue+Private.h"; sourceTree = "<group>"; };
+		D0AD961078351852C5FE7D2A0C74205A /* util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = util.m; sourceTree = "<group>"; };
+		D2FB78C6E15BAD231916C7702076C8C0 /* YTXMFScopeChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFScopeChain.h; sourceTree = "<group>"; };
+		D6F2902E5D18591F597C40D80076E411 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		D8CE1CE8C0D297735A7284F886145B95 /* Pods-QMangoFix_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMangoFix_Tests-Info.plist"; sourceTree = "<group>"; };
+		DCB8FCBBAB6439C259264B2BCA395426 /* YTXMFTypeSpecifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFTypeSpecifier.m; sourceTree = "<group>"; };
+		E1AF4952F05FC7C7E419E5371CB77F2A /* symdl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = symdl.framework; path = symdl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E262990A53B6EF802E41442019BC19C4 /* YTXMFClassDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFClassDefinition.m; sourceTree = "<group>"; };
+		E48E6DD05B7FDB26C6E2F4CABD4AD4D2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		E4DE7BF27D9FA0A1B04CD70719AA2FB5 /* YTXMFVarDeclareChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFVarDeclareChain.m; sourceTree = "<group>"; };
+		E6146F6D3140FF72532427D4A575C242 /* YTXMFStructDeclare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStructDeclare.h; sourceTree = "<group>"; };
+		E63489213B5C5EBDA27BEBB80B3FEAC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E6F4D7B77130E4481ADB1258BE33A5E0 /* YTXMFBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFBlock.h; sourceTree = "<group>"; };
+		E8318A25D2EAC2D31E00C1E4AF2B73A9 /* YTXMFStatement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStatement.m; sourceTree = "<group>"; };
+		E935F0758221114F436FCDCEC65BDA8F /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		EA295E32850C27EF72E00B117999D80B /* YTXMFStatementResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStatementResult.h; sourceTree = "<group>"; };
+		ED920D1999CB1CE5FBC0E2D8FF5D71AA /* YTXMFVarDeclareChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFVarDeclareChain.h; sourceTree = "<group>"; };
+		EE40919468AE5F1E73D6A2254FC26868 /* Pods-QMangoFix_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMangoFix_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF5195424E85CD72AC2D15BE486D3561 /* create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = create.m; sourceTree = "<group>"; };
+		F19D4A9A5D9B17761759B698E4E8590F /* MFDeclarationModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MFDeclarationModifier.h; sourceTree = "<group>"; };
+		F7B70AB439B3D7130916285B4419DEEC /* YTXMFFunctionDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFFunctionDefinition.m; sourceTree = "<group>"; };
+		F969BCBFA4716228B6A41C302507E634 /* QMangoFix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMangoFix-dummy.m"; sourceTree = "<group>"; };
+		F9C4C0B5D875D9905FC2D675F2666A4D /* YTXMFExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFExpression.h; sourceTree = "<group>"; };
+		FA21811FFD50DA701F9A22E5E529C3B7 /* YTXMFValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFValue.h; sourceTree = "<group>"; };
+		FFDEC20C8B7E12E231CED100D7A5E938 /* YTXMangoFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTXMangoFix.h; path = QMangoFix/Classes/YTXMangoFix.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D199E29305BB787BF3CBD7F3A13A7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F9FE4545682153F026EBFB990972CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263BB18D2F6A1B7181A4C016CA7125D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6603EAAFD2919E8EA13BFE23E2B1093F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33243A7C88F82D85CA8CDAE9F38846E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079ED13860C9F71F26AA927D9AE6EF65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E522423E2885D2BB8864FF67D7FE75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26E570B80074374DAE8A906E6D907AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A370CEECC597BE1907333CE659770D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				3004E8EC83A4209ECD56D0FAEA2AC72D /* Pods_QMangoFix_Example.framework */,
+				4015C507047CFAA80047E761CA40E120 /* Pods_QMangoFix_Tests.framework */,
+				11AFF660D10C52E6DA4940461B604604 /* QMangoFix.framework */,
+				E1AF4952F05FC7C7E419E5371CB77F2A /* symdl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD28CC5817C85E90D50CACB1299F233 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4033231EB719065E07C62D0EF757197E /* symdl.modulemap */,
+				159A8F1EE43AB462FD19F1D7C5513819 /* symdl.xcconfig */,
+				B72DB868241459736A76B67372926CCE /* symdl-dummy.m */,
+				84F46BDDA13607F02C5FD49D4D364D83 /* symdl-Info.plist */,
+				407A01F882EE90242754CD8D57991CFA /* symdl-prefix.pch */,
+				A1C3AB4D27E1C106F497BD050220501D /* symdl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/symdl";
+			sourceTree = "<group>";
+		};
+		0E85AB8094E3984FD03D3E0A6C48F618 /* lex_yacc */ = {
+			isa = PBXGroup;
+			children = (
+				3E603BE68A29BF2BC56B64C48A9271C5 /* mango.l */,
+				6786B82CBE1E95A0E097C091BFEC3D81 /* mango.y */,
+			);
+			name = lex_yacc;
+			path = lex_yacc;
+			sourceTree = "<group>";
+		};
+		11BD69A74C2E9D598F6A23AD5F16BDB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEEAD4AB9CC5BD5FB2F7B800DF41A7 /* FBSnapshotTestCase.modulemap */,
+				1F2C1D7526D540B0BC354CB68429EB3D /* FBSnapshotTestCase.xcconfig */,
+				2EF54B03033BBA16B19DD382E1AE2BFA /* FBSnapshotTestCase-dummy.m */,
+				26993A5835A618E451168F41CE2DE5DA /* FBSnapshotTestCase-Info.plist */,
+				0CBAA9F24151EAAFD7D5BDEF6FB7C69E /* FBSnapshotTestCase-prefix.pch */,
+				9EF2BAE2D440A9DB5A0B4206AC977A36 /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		1678872764A6E2D80F26EB6FDA2D5444 /* QMangoFix */ = {
+			isa = PBXGroup;
+			children = (
+				8B2F76C91BB8C1F49E645C3BE4F1617A /* Info.plist */,
+				FFDEC20C8B7E12E231CED100D7A5E938 /* YTXMangoFix.h */,
+				C8CD0F42619A2867B5640B275105C451 /* Compiler */,
+				3281BDC83BDDA67D0726C50ED6FEE270 /* Error */,
+				8A98A9A0B9FB51432D072A1521792F09 /* Execute */,
+				8FC6B47A5D66E209FA272801E76A7CDE /* libffi */,
+				97756737BDD98F3E8E697D10A5DB8E70 /* Pod */,
+				4504F2F5BB758FD12CCC6D9DC77FD7A0 /* Support Files */,
+				F88697DFA3794CEFD07B21B414050E2F /* Util */,
+			);
+			name = QMangoFix;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		23B789264D4B679C91F435AF6AF2AB83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722AEC327151B8A2A53042A5B4FD2802 /* Pods-QMangoFix_Example */,
+				C97EC838FFE273ADD3BE901C35950A7F /* Pods-QMangoFix_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2475298DBDCCE0D482B4C173F8B243E6 /* symdl */ = {
+			isa = PBXGroup;
+			children = (
+				B66427725BC190FF9E33DB9BD28218D9 /* symdl.c */,
+				A087C432412B00FD94C86BD83EB12E96 /* symdl.h */,
+				0CD28CC5817C85E90D50CACB1299F233 /* Support Files */,
+			);
+			name = symdl;
+			path = symdl;
+			sourceTree = "<group>";
+		};
+		3281BDC83BDDA67D0726C50ED6FEE270 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				6F8609AEBAD7623B0D5AD4FA922C262F /* errror.h */,
+				79754481AD164067FEE1131916440FB7 /* errror.m */,
+			);
+			name = Error;
+			path = QMangoFix/Classes/Error;
+			sourceTree = "<group>";
+		};
+		39717ADD140368D8DB200A3FD540E623 /* AST */ = {
+			isa = PBXGroup;
+			children = (
+				918D0B51C2F2D60299AB47E86B5BDE7C /* mf_ast.h */,
+				F19D4A9A5D9B17761759B698E4E8590F /* MFDeclarationModifier.h */,
+				1752357959E8209A582C882FEF223BCB /* YTXMFBlockBody.h */,
+				72C81C556DA7E70272B4ECF9CE70CA77 /* YTXMFBlockBody.m */,
+				2D18A03A135B1566BBB48CDA05D19EF5 /* YTXMFClassDefinition.h */,
+				E262990A53B6EF802E41442019BC19C4 /* YTXMFClassDefinition.m */,
+				855667F06E1A66C329388020624BEB99 /* YTXMFDeclaration.h */,
+				C98E197EAAD7EC11E1E56B2FB7434B7B /* YTXMFDeclaration.m */,
+				F9C4C0B5D875D9905FC2D675F2666A4D /* YTXMFExpression.h */,
+				C8E233DE8B48021B53AC00F644B8BC9D /* YTXMFExpression.m */,
+				21D0C9AFF3257BDCC468A13AF776EBA1 /* YTXMFFunctionDefinition.h */,
+				F7B70AB439B3D7130916285B4419DEEC /* YTXMFFunctionDefinition.m */,
+				26A90A9C17F2E7ED7B147F015C9EFC7A /* YTXMFInterpreter.h */,
+				C5D969883E0E62BC2D95FD2DEC0496FF /* YTXMFInterpreter.m */,
+				7ACF8F7589CE372905C06FF05289D800 /* YTXMFStatement.h */,
+				E8318A25D2EAC2D31E00C1E4AF2B73A9 /* YTXMFStatement.m */,
+				E6146F6D3140FF72532427D4A575C242 /* YTXMFStructDeclare.h */,
+				58F85E3E3379A596BE1D5CE903EF17A1 /* YTXMFStructDeclare.m */,
+				32A280514E0C064B132F87608A565C29 /* YTXMFTypeSpecifier.h */,
+				DCB8FCBBAB6439C259264B2BCA395426 /* YTXMFTypeSpecifier.m */,
+			);
+			name = AST;
+			path = AST;
+			sourceTree = "<group>";
+		};
+		4504F2F5BB758FD12CCC6D9DC77FD7A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				760592AC03C262AF96BD0F5A456671A2 /* QMangoFix.modulemap */,
+				C47E7299408AC5B10B17F0173A9BEDF7 /* QMangoFix.xcconfig */,
+				F969BCBFA4716228B6A41C302507E634 /* QMangoFix-dummy.m */,
+				4C8DB64039CDAB381E58DA1EA6CBF6AE /* QMangoFix-Info.plist */,
+				1A82C2D0B4CBC65A158A6DDFE45F3454 /* QMangoFix-prefix.pch */,
+				161CF27CD5662299179C0127DC9BD971 /* QMangoFix-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QMangoFix";
+			sourceTree = "<group>";
+		};
+		5B1C8FCCA30722582A385499F421B433 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				564620D1E92F779A6338FFD8022A86FF /* YTXMFTypedefTable.h */,
+				ADBB73C3AAEC9F80C50373B992C1DA83 /* YTXMFTypedefTable.m */,
+			);
+			name = Table;
+			path = Table;
+			sourceTree = "<group>";
+		};
+		642E69D7543201958B773038BD423844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5E341CFBDA5FF6D2F203443D043AD /* FBSnapshotTestCase */,
+				2475298DBDCCE0D482B4C173F8B243E6 /* symdl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		722AEC327151B8A2A53042A5B4FD2802 /* Pods-QMangoFix_Example */ = {
+			isa = PBXGroup;
+			children = (
+				93737E9E07000096AE3CFC863205A909 /* Pods-QMangoFix_Example.modulemap */,
+				9AF660765A7AB8D2AABC4D5492B4F29D /* Pods-QMangoFix_Example-acknowledgements.markdown */,
+				34E56B241ECF9CD864C3734DD77F1FAF /* Pods-QMangoFix_Example-acknowledgements.plist */,
+				C85BEB1A9BAE1C839A8CC3478F6786A7 /* Pods-QMangoFix_Example-dummy.m */,
+				8C89816C1707E0DCF9FC90CB53175C54 /* Pods-QMangoFix_Example-frameworks.sh */,
+				ABCC2808F3C4DFBBC738262B01A84B90 /* Pods-QMangoFix_Example-Info.plist */,
+				EE40919468AE5F1E73D6A2254FC26868 /* Pods-QMangoFix_Example-umbrella.h */,
+				82F97FDA18BE50BA4638D7201AEB4A0C /* Pods-QMangoFix_Example.debug.xcconfig */,
+				8B48F569E2926D639B65767F8B63248F /* Pods-QMangoFix_Example.release.xcconfig */,
+			);
+			name = "Pods-QMangoFix_Example";
+			path = "Target Support Files/Pods-QMangoFix_Example";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8A98A9A0B9FB51432D072A1521792F09 /* Execute */ = {
+			isa = PBXGroup;
+			children = (
+				3350A6231FE0B237F4AD4577B3D28129 /* built-in.m */,
+				7164BFF77E26450430B89E36FFB174B5 /* eval.m */,
+				447CEC55294CDBDA428A6FE9178F2C97 /* execute.h */,
+				1623CEB47110A58DDB1139481F520DC2 /* execute.m */,
+				3124DAE65A50D212CD23A3AD8AD57110 /* YTXMFContext.h */,
+				B8975B8FF88EC213959B620C3ABCF24D /* YTXMFContext.m */,
+				A00B8DDF538842EDF9C0212818A3BB09 /* RunEnv */,
+			);
+			name = Execute;
+			path = QMangoFix/Classes/Execute;
+			sourceTree = "<group>";
+		};
+		8FC6B47A5D66E209FA272801E76A7CDE /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				23DEEF652EFAEBEB4861DFDE90FB414E /* ffi.h */,
+				9CDF289E270A2E7635A68BFED0F9AA54 /* ffi_arm.h */,
+				E935F0758221114F436FCDCEC65BDA8F /* ffi_arm64.h */,
+				7E5304784D31749C6DA60A0C709157E6 /* ffi_i386.h */,
+				1651753AB8B0A0E5BF5C5C6CDCA2BE47 /* ffi_x86_64.h */,
+				C4258C1A15369F497F72DCD9AF3C40DB /* ffitarget.h */,
+				2BC0CC4FF92696C425C7C2D1304AE552 /* ffitarget_arm.h */,
+				11F19DA26A4165047B06952265BDB25A /* ffitarget_arm64.h */,
+				C2CF72131975E9D41FAACF4C09CB1F62 /* ffitarget_i386.h */,
+				4FFA20E957ADE70866E5EB4243B9B254 /* ffitarget_x86_64.h */,
+				A67207BEDBB136051FBF3D334257569F /* libffi.a */,
+			);
+			name = libffi;
+			path = QMangoFix/Classes/libffi;
+			sourceTree = "<group>";
+		};
+		97756737BDD98F3E8E697D10A5DB8E70 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E966A5EDCF334AABF37A7702A657AED /* LICENSE */,
+				7A45A701513F3358EFF281F665518F41 /* QMangoFix.podspec */,
+				E63489213B5C5EBDA27BEBB80B3FEAC3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A00B8DDF538842EDF9C0212818A3BB09 /* RunEnv */ = {
+			isa = PBXGroup;
+			children = (
+				52372AB29677CD673A272285903C39A7 /* runenv.h */,
+				E6F4D7B77130E4481ADB1258BE33A5E0 /* YTXMFBlock.h */,
+				3E89C0708E0B787D8AFDF19BDFBD71E5 /* YTXMFBlock.m */,
+				3D93B38460E948CB7106650DE762A925 /* YTXMFMethodMapTable.h */,
+				58D33258E8F34AF5964EEB50386710C6 /* YTXMFMethodMapTable.m */,
+				68EDE69B0487631EBB32590451D2CEB6 /* YTXMFPropertyMapTable.h */,
+				7812AEF0E9CB4135E12AFEF6125DC861 /* YTXMFPropertyMapTable.m */,
+				D2FB78C6E15BAD231916C7702076C8C0 /* YTXMFScopeChain.h */,
+				3AA49D499A680A3921F84AB5D92E38D3 /* YTXMFScopeChain.m */,
+				3DADB2B34975065ACAAEB2005D84C0E8 /* YTXMFStack.h */,
+				09AC688F7F9652D6000954A156351BC9 /* YTXMFStack.m */,
+				EA295E32850C27EF72E00B117999D80B /* YTXMFStatementResult.h */,
+				9A5485A99D838273535DAA8084A8D482 /* YTXMFStatementResult.m */,
+				6D477632B9F4DCF88DBB20D4A1CEE5AB /* YTXMFStaticVarTable.h */,
+				CC35C26EDA6BD67F806392F2BA15B63F /* YTXMFStaticVarTable.m */,
+				0FA830EC537D3E242E57AD73B7B22E00 /* YTXMFStructDeclareTable.h */,
+				9497AA1088597F188BA04D216ABFA1C7 /* YTXMFStructDeclareTable.m */,
+				FA21811FFD50DA701F9A22E5E529C3B7 /* YTXMFValue.h */,
+				B02FA1214DA64779202666CF43C7A46D /* YTXMFValue.m */,
+				D06D2A796F2AE22D3FC3702D0F305C1C /* YTXMFValue+Private.h */,
+				ED920D1999CB1CE5FBC0E2D8FF5D71AA /* YTXMFVarDeclareChain.h */,
+				E4DE7BF27D9FA0A1B04CD70719AA2FB5 /* YTXMFVarDeclareChain.m */,
+				0A6C6A34EE60CDD7B44987B68EAD92B0 /* YTXMFWeakPropertyBox.h */,
+				8B27A8C5BFDBB3A6868BF179CFA2DEDB /* YTXMFWeakPropertyBox.m */,
+			);
+			name = RunEnv;
+			path = RunEnv;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9505AE9F47127F8322F6727C23703C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1678872764A6E2D80F26EB6FDA2D5444 /* QMangoFix */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BFE8754B97D3E406F84A0982BBF5DA18 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F877DB4DEFA18C399308384AB65E3A8 /* FBSnapshotTestCase.h */,
+				D6F2902E5D18591F597C40D80076E411 /* FBSnapshotTestCase.m */,
+				A3016B8B2095A8B5CB2078C98DFC853D /* FBSnapshotTestCasePlatform.h */,
+				7C4E26E6A564890AE34EBE1C946535E4 /* FBSnapshotTestCasePlatform.m */,
+				90ADC7FD6A6BFC3F285D223E0D439345 /* FBSnapshotTestController.h */,
+				54C437DA3767297073F0C0487E39E497 /* FBSnapshotTestController.m */,
+				1178B488B8EDE138D49F0ADEB02B7A5B /* UIApplication+StrictKeyWindow.h */,
+				1167C5FC0ECC2684127D8ECC345CD45B /* UIApplication+StrictKeyWindow.m */,
+				75CA209FD571908718658039681F0DE3 /* UIImage+Compare.h */,
+				E48E6DD05B7FDB26C6E2F4CABD4AD4D2 /* UIImage+Compare.m */,
+				5888509119A5117E27C12CF91A113A92 /* UIImage+Diff.h */,
+				A58D517E69E802FAEAD26327291DB820 /* UIImage+Diff.m */,
+				4DFE6D7AA870FBCE32DDE9BF563A4005 /* UIImage+Snapshot.h */,
+				C9B8D56B6B77C0C6844FC314F0569470 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C8CD0F42619A2867B5640B275105C451 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				819E330AAFB015EFD51A34B4FA4557AB /* create.h */,
+				EF5195424E85CD72AC2D15BE486D3561 /* create.m */,
+				39717ADD140368D8DB200A3FD540E623 /* AST */,
+				0E85AB8094E3984FD03D3E0A6C48F618 /* lex_yacc */,
+				5B1C8FCCA30722582A385499F421B433 /* Table */,
+			);
+			name = Compiler;
+			path = QMangoFix/Classes/Compiler;
+			sourceTree = "<group>";
+		};
+		C97EC838FFE273ADD3BE901C35950A7F /* Pods-QMangoFix_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38EB2DF860063976E0289246A2EB6395 /* Pods-QMangoFix_Tests.modulemap */,
+				09FCDBBF42064FCC4E94861A5EFD6A84 /* Pods-QMangoFix_Tests-acknowledgements.markdown */,
+				CFDD0389E53311FF01EA48B6EF52D7C0 /* Pods-QMangoFix_Tests-acknowledgements.plist */,
+				72FD09855407F3C255CA9F938F3C3ED4 /* Pods-QMangoFix_Tests-dummy.m */,
+				3E18DCBB6AE7A8B1A34542D578D1A0EE /* Pods-QMangoFix_Tests-frameworks.sh */,
+				D8CE1CE8C0D297735A7284F886145B95 /* Pods-QMangoFix_Tests-Info.plist */,
+				0BDB289873B52D2391F5BA2BEE386DCB /* Pods-QMangoFix_Tests-umbrella.h */,
+				8AFADF629A9F8DE26C6B7048F12A0FE7 /* Pods-QMangoFix_Tests.debug.xcconfig */,
+				B3F2FBDC39CD258DA2CB37DAC51BC484 /* Pods-QMangoFix_Tests.release.xcconfig */,
+			);
+			name = "Pods-QMangoFix_Tests";
+			path = "Target Support Files/Pods-QMangoFix_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BF9505AE9F47127F8322F6727C23703C /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				642E69D7543201958B773038BD423844 /* Pods */,
+				06A370CEECC597BE1907333CE659770D /* Products */,
+				23B789264D4B679C91F435AF6AF2AB83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E090BF9A3CB427A6D1BFEB02567AE373 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				8D8D4D782A9C79A0A4374E7C4AB2BE35 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		F1B5E341CFBDA5FF6D2F203443D043AD /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				BFE8754B97D3E406F84A0982BBF5DA18 /* Core */,
+				11BD69A74C2E9D598F6A23AD5F16BDB0 /* Support Files */,
+				E090BF9A3CB427A6D1BFEB02567AE373 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		F88697DFA3794CEFD07B21B414050E2F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6FD8BB765EEA3F9BF6168855603E6 /* util.h */,
+				D0AD961078351852C5FE7D2A0C74205A /* util.m */,
+				2ED35AA2C503410EEC255D0A3805D631 /* YTXMFRSA.h */,
+				641D09359B97AA512BF5E92188F2101F /* YTXMFRSA.m */,
+			);
+			name = Util;
+			path = QMangoFix/Classes/Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		004F3438038EA99BF2C959A1AC8DD631 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3FEC24732FF5C4CEFAC3307680E0CC /* symdl-umbrella.h in Headers */,
+				33E9BB9ADB2C66F152C518D96EE8B5EA /* symdl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC8E6FF84C7347F6DC2196401017949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E9181B5828476E320FF60DAE28BC6F /* Pods-QMangoFix_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39D0D13ADF6E3CA2044B367C2E9C8F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE25F8EAC6CBA811C75B8ED456F1725C /* Pods-QMangoFix_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE65ABF76FDF26D51926676DFDDF389A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F804CBD15AD9B53C9D00BCF72D82FC7D /* create.h in Headers */,
+				0F9BB392E4001CFEA7C3B0F8BE4784F6 /* errror.h in Headers */,
+				F3564293154E157134925A7C19A7CA0C /* execute.h in Headers */,
+				F70EAFCDEEAD4C7512532D0CF69B2C5D /* ffi.h in Headers */,
+				79262D0E336458C633A653836A926772 /* ffi_arm.h in Headers */,
+				492E943F8A1C8B9351B5A1504F3B0BB1 /* ffi_arm64.h in Headers */,
+				2D1FB17C552A35D3259FA0CE76C3F306 /* ffi_i386.h in Headers */,
+				18BA43171B787A15510135EEFB987188 /* ffi_x86_64.h in Headers */,
+				5A0A897E4DCF5F080E19902944896DCA /* ffitarget.h in Headers */,
+				588B5F83870392FA27C5BB9C078DF163 /* ffitarget_arm.h in Headers */,
+				3A8BFE31A62CD649D55AAC0DF3C08B55 /* ffitarget_arm64.h in Headers */,
+				123A6949162482B472BB086B642D40C2 /* ffitarget_i386.h in Headers */,
+				B583AC5DBB3BDDC26CAEDC4FA1C3B5DB /* ffitarget_x86_64.h in Headers */,
+				428B6B0A8363C796C896796D71D2F5C3 /* mf_ast.h in Headers */,
+				03DE9E898FE0DE342ACBED81BDA8C68C /* MFDeclarationModifier.h in Headers */,
+				AB5DF35080D7034477C6E9A632AEAFB3 /* QMangoFix-umbrella.h in Headers */,
+				A278D26B4C3B600CCE56ADE8A5008FE5 /* runenv.h in Headers */,
+				F61B25D29F463BAA35B78CB4BA0FD5D4 /* util.h in Headers */,
+				64F65FE9839DE4E24247B57BA59AA109 /* YTXMangoFix.h in Headers */,
+				8C9199361B78457754FACDC598798B4C /* YTXMFBlock.h in Headers */,
+				4BED45D244687569A1815E8AA4E59EAF /* YTXMFBlockBody.h in Headers */,
+				E9E9970271BE488AF38606289EAD9A50 /* YTXMFClassDefinition.h in Headers */,
+				0080B18165B3CB538E5673ED39D2C274 /* YTXMFContext.h in Headers */,
+				518DC94FF010BABC1D6D8AAABEE8BDF8 /* YTXMFDeclaration.h in Headers */,
+				EFB522D05BACB32550F9B16EA2B36C6A /* YTXMFExpression.h in Headers */,
+				71A0A02632F36BCBDFEA680CFB01AD8A /* YTXMFFunctionDefinition.h in Headers */,
+				49DB4F1D162DDEBFD612AA1A53D256D2 /* YTXMFInterpreter.h in Headers */,
+				E94D16C82DA5D35A0ABA76B0BC719BA5 /* YTXMFMethodMapTable.h in Headers */,
+				38FAA71042B9FAF1D87E125B9A1531DF /* YTXMFPropertyMapTable.h in Headers */,
+				45629546E855C9641CDE7CB62899EC9E /* YTXMFRSA.h in Headers */,
+				BB31C81B1974300ABBF94A412F224365 /* YTXMFScopeChain.h in Headers */,
+				6EBBFE8B8E2781F3082538C54C17FF06 /* YTXMFStack.h in Headers */,
+				A6E3450DCC6DF2EEA2CBA5557F6AC51D /* YTXMFStatement.h in Headers */,
+				EBD9EFBEE304A40606295CA337310973 /* YTXMFStatementResult.h in Headers */,
+				E3E5F9637A1F34C5AE0688EF77785AB7 /* YTXMFStaticVarTable.h in Headers */,
+				4C393F0475061E8DA9FCCC10E9F235FF /* YTXMFStructDeclare.h in Headers */,
+				D43AFF21FA8F711AD617F2EDF4FFD074 /* YTXMFStructDeclareTable.h in Headers */,
+				E890906FD8B70C2633070A7A36CE7876 /* YTXMFTypedefTable.h in Headers */,
+				7D8058E289E870BF16CB49FE35F13DA8 /* YTXMFTypeSpecifier.h in Headers */,
+				B91EB79BDB4F6918D0448E1E175E94FE /* YTXMFValue+Private.h in Headers */,
+				11637CDDA0804767C6C0A59D589E0644 /* YTXMFValue.h in Headers */,
+				EC16A0D21B59890C626A2643A79F48F3 /* YTXMFVarDeclareChain.h in Headers */,
+				6253F0EDDD4ABD4ABAAADF2F2E32DA57 /* YTXMFWeakPropertyBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AF71E170E6E23E52C25DE0ACEB4B011 /* QMangoFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE130BEA115B12E033A281BEDEFB40F0 /* Build configuration list for PBXNativeTarget "QMangoFix" */;
+			buildPhases = (
+				DE65ABF76FDF26D51926676DFDDF389A /* Headers */,
+				B3D73EACB868B558C89BD45D13597102 /* Sources */,
+				263BB18D2F6A1B7181A4C016CA7125D9 /* Frameworks */,
+				E19E0B06C92CDA50CC8454F084A10960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMangoFix;
+			productName = QMangoFix;
+			productReference = 11AFF660D10C52E6DA4940461B604604 /* QMangoFix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		904554A9342C71CFCDAECF184C398DC0 /* Pods-QMangoFix_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15C759EEF5DEAFBF67CBBA589D55700 /* Build configuration list for PBXNativeTarget "Pods-QMangoFix_Example" */;
+			buildPhases = (
+				2BC8E6FF84C7347F6DC2196401017949 /* Headers */,
+				8D28D446B4F0BF1BC25C6DBB5039E79D /* Sources */,
+				33243A7C88F82D85CA8CDAE9F38846E8 /* Frameworks */,
+				270DC7C0EFC8A8649B955AF2542ADFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AF287F3E0DBDE43EE6F4AE3B104491 /* PBXTargetDependency */,
+				5BC9A940DA753A4440765CB3F75795C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-QMangoFix_Example";
+			productName = "Pods-QMangoFix_Example";
+			productReference = 3004E8EC83A4209ECD56D0FAEA2AC72D /* Pods_QMangoFix_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBDC6689FD9078123ED156304717219 /* Build configuration list for PBXNativeTarget "symdl" */;
+			buildPhases = (
+				004F3438038EA99BF2C959A1AC8DD631 /* Headers */,
+				242C42C4EB64668E90A2C5B16B013D37 /* Sources */,
+				0D199E29305BB787BF3CBD7F3A13A7B8 /* Frameworks */,
+				7E69156A143916F39CC2FF2C5E9DC13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = symdl;
+			productName = symdl;
+			productReference = E1AF4952F05FC7C7E419E5371CB77F2A /* symdl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF7FE6F3BFFE51B6B7D2EEA4D4742C73 /* Pods-QMangoFix_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731C20C3538AC508B41CD330702EBDA4 /* Build configuration list for PBXNativeTarget "Pods-QMangoFix_Tests" */;
+			buildPhases = (
+				A39D0D13ADF6E3CA2044B367C2E9C8F0 /* Headers */,
+				CCCE10A468122D86ED8A0CBB23C5EDF3 /* Sources */,
+				3E522423E2885D2BB8864FF67D7FE75E /* Frameworks */,
+				3DFB0DEBB8EA4480C7B38D57F9701CE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42711A4992529FD87DD1207CF5097F0 /* PBXTargetDependency */,
+				F442AC59368320099A63FEF3305EC087 /* PBXTargetDependency */,
+			);
+			name = "Pods-QMangoFix_Tests";
+			productName = "Pods-QMangoFix_Tests";
+			productReference = 4015C507047CFAA80047E761CA40E120 /* Pods_QMangoFix_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 06A370CEECC597BE1907333CE659770D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				904554A9342C71CFCDAECF184C398DC0 /* Pods-QMangoFix_Example */,
+				DF7FE6F3BFFE51B6B7D2EEA4D4742C73 /* Pods-QMangoFix_Tests */,
+				3AF71E170E6E23E52C25DE0ACEB4B011 /* QMangoFix */,
+				A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270DC7C0EFC8A8649B955AF2542ADFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFB0DEBB8EA4480C7B38D57F9701CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E69156A143916F39CC2FF2C5E9DC13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19E0B06C92CDA50CC8454F084A10960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242C42C4EB64668E90A2C5B16B013D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FB93A874799D21BD5BE96D275FEDFE /* symdl-dummy.m in Sources */,
+				E50BCD1B9C1D43A13C5778C31664B3D8 /* symdl.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D28D446B4F0BF1BC25C6DBB5039E79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBC010E82DA70EC7C663160AEC8D007 /* Pods-QMangoFix_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D73EACB868B558C89BD45D13597102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D845C30D205EA32E53CAA77CE48171C /* built-in.m in Sources */,
+				623D8725FE022A8078D604D4EF3D34D9 /* create.m in Sources */,
+				CAFBB259A02CA0632B246C7F97A3C209 /* errror.m in Sources */,
+				2D652CA1BF5038AFAC01034A9529CE24 /* eval.m in Sources */,
+				CA6AEB144265817E04C094CE1143648B /* execute.m in Sources */,
+				ED637AE880297B9FAE937C5433D533C4 /* Info.plist in Sources */,
+				91FA105CF26F2E8A94E05FCBE02400D5 /* libffi.a in Sources */,
+				AC61913C82B0CA15154AF57727DCFD52 /* mango.l in Sources */,
+				D37517E782267C79BC5A6D795C8867DD /* mango.y in Sources */,
+				D7A045883DCF65A3A813071779EC41AA /* QMangoFix-dummy.m in Sources */,
+				84A3FDE0773D2695122C6DDF11759973 /* util.m in Sources */,
+				7AFAFEEC55E429A274BC8ABEC795575C /* YTXMFBlock.m in Sources */,
+				E2CC57194E523B68166B36B751970D01 /* YTXMFBlockBody.m in Sources */,
+				0D527725F57A65B130E79EB5767F007B /* YTXMFClassDefinition.m in Sources */,
+				EE552702A233656C2843F3185DC5660D /* YTXMFContext.m in Sources */,
+				A4569E6EB766578C0279C6D1497700BA /* YTXMFDeclaration.m in Sources */,
+				A34E26A5D35D0BE5FCBA5A44645BC452 /* YTXMFExpression.m in Sources */,
+				05D7CFA334083BC6404191A2BC24C410 /* YTXMFFunctionDefinition.m in Sources */,
+				94ED2CA704C5ABFE28AAFF398312818A /* YTXMFInterpreter.m in Sources */,
+				184D51C8AFE2D2EF941432D1661BB37A /* YTXMFMethodMapTable.m in Sources */,
+				5FE21273EFA1950E2480AACE749F2F5E /* YTXMFPropertyMapTable.m in Sources */,
+				7CF3659D21A05F7D604E0C0E4046E204 /* YTXMFRSA.m in Sources */,
+				A9B1623CBAEEE1623B6DC2651F6C65AF /* YTXMFScopeChain.m in Sources */,
+				228621B3410D7C21F3171174DC6E6228 /* YTXMFStack.m in Sources */,
+				56452FB7A6BC759607839F3E87684CAE /* YTXMFStatement.m in Sources */,
+				7BC10466F118903A91444EDE64DEB41A /* YTXMFStatementResult.m in Sources */,
+				CC9D383D5F55386E22278BEC8A1483C9 /* YTXMFStaticVarTable.m in Sources */,
+				522EAB9B041AC2AF42D14032CA71A65D /* YTXMFStructDeclare.m in Sources */,
+				201ED7D4C0CE140925C776D6C2BD9FB1 /* YTXMFStructDeclareTable.m in Sources */,
+				3DE15A0C5A15CF3A0B06BB1194A9A0E0 /* YTXMFTypedefTable.m in Sources */,
+				6032C4678C8F5207121FC9F75F7ED350 /* YTXMFTypeSpecifier.m in Sources */,
+				2861886E920DB2E1EA3E286853914814 /* YTXMFValue.m in Sources */,
+				7F7F204ADA5B85307AE5EEB9D9668249 /* YTXMFVarDeclareChain.m in Sources */,
+				84260B948995894B4E3455D1416A14ED /* YTXMFWeakPropertyBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCE10A468122D86ED8A0CBB23C5EDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DED0410418A3BC1923DBED34A64AE42 /* Pods-QMangoFix_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC9A940DA753A4440765CB3F75795C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = symdl;
+			target = A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */;
+			targetProxy = BBC050F78CA9843B8328EABFC9B8756B /* PBXContainerItemProxy */;
+		};
+		65AF287F3E0DBDE43EE6F4AE3B104491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMangoFix;
+			target = 3AF71E170E6E23E52C25DE0ACEB4B011 /* QMangoFix */;
+			targetProxy = C16D3ECCF25EDAC02FEC242056C28FDB /* PBXContainerItemProxy */;
+		};
+		B42711A4992529FD87DD1207CF5097F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 530D9FBF8A1F03621E8C1A7433B9223F /* PBXContainerItemProxy */;
+		};
+		F442AC59368320099A63FEF3305EC087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QMangoFix_Example";
+			target = 904554A9342C71CFCDAECF184C398DC0 /* Pods-QMangoFix_Example */;
+			targetProxy = DBBDC4DA5951B82EA497D2380988E8F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		497FF7A5F1425419C795538D86838E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159A8F1EE43AB462FD19F1D7C5513819 /* symdl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/symdl/symdl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/symdl/symdl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/symdl/symdl.modulemap";
+				PRODUCT_MODULE_NAME = symdl;
+				PRODUCT_NAME = symdl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51FBA666FEE3D03C94C4AE37679364B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFADF629A9F8DE26C6B7048F12A0FE7 /* Pods-QMangoFix_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMangoFix_Tests/Pods-QMangoFix_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMangoFix_Tests/Pods-QMangoFix_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5656A333F7EBBE9772DEC081E88F49BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47E7299408AC5B10B17F0173A9BEDF7 /* QMangoFix.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMangoFix/QMangoFix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMangoFix/QMangoFix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMangoFix/QMangoFix.modulemap";
+				PRODUCT_MODULE_NAME = QMangoFix;
+				PRODUCT_NAME = QMangoFix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B19C3000A5229813FE8A2BEC2DAB5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F2FBDC39CD258DA2CB37DAC51BC484 /* Pods-QMangoFix_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMangoFix_Tests/Pods-QMangoFix_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMangoFix_Tests/Pods-QMangoFix_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2C1D7526D540B0BC354CB68429EB3D /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85A1E00295A242D654A836ECCEEF8F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F97FDA18BE50BA4638D7201AEB4A0C /* Pods-QMangoFix_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMangoFix_Example/Pods-QMangoFix_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMangoFix_Example/Pods-QMangoFix_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A1E874202219DCCCCE244EFFAB7EEC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159A8F1EE43AB462FD19F1D7C5513819 /* symdl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/symdl/symdl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/symdl/symdl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/symdl/symdl.modulemap";
+				PRODUCT_MODULE_NAME = symdl;
+				PRODUCT_NAME = symdl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B704A203C731377F0841736CF0A3ED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47E7299408AC5B10B17F0173A9BEDF7 /* QMangoFix.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMangoFix/QMangoFix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMangoFix/QMangoFix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMangoFix/QMangoFix.modulemap";
+				PRODUCT_MODULE_NAME = QMangoFix;
+				PRODUCT_NAME = QMangoFix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2C1D7526D540B0BC354CB68429EB3D /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDE7624C1A9F38FDDEDCC952370A46AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B48F569E2926D639B65767F8B63248F /* Pods-QMangoFix_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMangoFix_Example/Pods-QMangoFix_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMangoFix_Example/Pods-QMangoFix_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBDC6689FD9078123ED156304717219 /* Build configuration list for PBXNativeTarget "symdl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497FF7A5F1425419C795538D86838E11 /* Debug */,
+				A1E874202219DCCCCE244EFFAB7EEC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731C20C3538AC508B41CD330702EBDA4 /* Build configuration list for PBXNativeTarget "Pods-QMangoFix_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FBA666FEE3D03C94C4AE37679364B2 /* Debug */,
+				5B19C3000A5229813FE8A2BEC2DAB5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE130BEA115B12E033A281BEDEFB40F0 /* Build configuration list for PBXNativeTarget "QMangoFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B704A203C731377F0841736CF0A3ED59 /* Debug */,
+				5656A333F7EBBE9772DEC081E88F49BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15C759EEF5DEAFBF67CBBA589D55700 /* Build configuration list for PBXNativeTarget "Pods-QMangoFix_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A1E00295A242D654A836ECCEEF8F54 /* Debug */,
+				FDE7624C1A9F38FDDEDCC952370A46AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

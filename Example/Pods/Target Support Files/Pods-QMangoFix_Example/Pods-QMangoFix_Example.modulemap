@@ -1,0 +1,6 @@
+framework module Pods_QMangoFix_Example {
+  umbrella header "Pods-QMangoFix_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

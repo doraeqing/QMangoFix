@@ -1,0 +1,6 @@
+framework module QMangoFix {
+  umbrella header "QMangoFix-umbrella.h"
+
+  export *
+  module * { export * }
+}
