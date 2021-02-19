@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <objc/message.h>
-//#import <symdl/symdl.h>
+#import <symdl/symdl.h>
 #import "mf_ast.h"
 #import "ffi.h"
 #import "util.h"
